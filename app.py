@@ -7,7 +7,7 @@ import warnings
 import base64
 from PIL import Image
 
-#agri
+#agriculture
 
 def load_model(modelfile):
 	loaded_model = pickle.load(open(modelfile, 'rb'))
