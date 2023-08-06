@@ -53,7 +53,7 @@ def main():
          
         
 
-    states=pd.read_csv("loc.csv")
+    states=pd.read_csv("dataset/loc.csv")
 
     col1, col2,col3 = st.columns(3)
 
@@ -146,12 +146,12 @@ def main():
     
     
     #print(single_pred)
-    button1 = st.button('Predict the Crop')
-    button2 = st.button('Predict the Fertilizer')
+    button1 = st.button('Find Crop')
+    button2 = st.button('Find Fertilizer')
     col1, col2,col3 = st.columns(3)
     if button1:
         
-        loaded_model = load_model('model.pkl')
+        loaded_model = load_model('models/model.pkl')
         
         prediction = loaded_model.predict(single_pred)
 
@@ -172,7 +172,7 @@ def main():
     if button2:
     
 
-        loaded_model = load_model('model1.pkl')
+        loaded_model = load_model('models/model1.pkl')
         prediction = loaded_model.predict(single_pred)
         
         a=prediction.item().title()
@@ -191,7 +191,7 @@ def main():
         )
    
 
-        loaded_model = load_model('model2.pkl')
+        loaded_model = load_model('models/model2.pkl')
         prediction = loaded_model.predict(single_pred)
         a=prediction.item().title()
         b=a.split("_")
@@ -209,7 +209,7 @@ def main():
         )
    
     
-        loaded_model = load_model('model3.pkl')
+        loaded_model = load_model('models/model3.pkl')
         prediction = loaded_model.predict(single_pred)
 
         a=prediction.item().title()
@@ -275,11 +275,11 @@ def main():
             </div>
             """,unsafe_allow_html=True
         )
-        loaded_model = load_model('model.pkl')
+        loaded_model = load_model('models/model.pkl')
         prediction = loaded_model.predict(single_pred)
         crop=prediction.item().title()
         
-        df=pd.read_csv("LINK.csv")
+        df=pd.read_csv("dataset/LINK.csv")
         subset=df[df['CROP']==crop]['link']
         subset=subset.values.tolist()
         col2.markdown(
