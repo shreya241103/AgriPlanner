@@ -1,7 +1,7 @@
 Get fertilizer, crop recommendations & cultivation insights for optimal crop growth.
 
-run app.py to view the output
 
-<img width="872" alt="Screenshot 2023-08-06 at 12 14 55 AM" src="https://github.com/shreya241103/AgriPlanner/assets/115857097/3348ca53-3579-44f1-bcf4-6dc3904295ce">
-<img width="735" alt="Screenshot 2023-08-06 at 12 15 04 AM" src="https://github.com/shreya241103/AgriPlanner/assets/115857097/44ca539b-88ba-4760-89b4-3b5bde3f550a">
-<img width="749" alt="Screenshot 2023-08-06 at 12 15 10 AM" src="https://github.com/shreya241103/AgriPlanner/assets/115857097/d0d255dc-8790-492f-8067-f3d9e582297b">
+<img width="793" alt="Screenshot 2023-08-06 at 11 09 25 AM" src="https://github.com/shreya241103/AgriPlanner/assets/115857097/e79cc1b0-6a40-43fa-a57a-77508e299a97">
+
+<img width="783" alt="Screenshot 2023-08-06 at 11 10 59 AM" src="https://github.com/shreya241103/AgriPlanner/assets/115857097/8821d62d-0910-4eb3-a7a0-d1918c2e2c53">
+<img width="782" alt="Screenshot 2023-08-06 at 11 09 50 AM" src="https://github.com/shreya241103/AgriPlanner/assets/115857097/d4253e45-1c44-47a1-a46b-b87b1e1bb3d6">
